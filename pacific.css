@@ -1,0 +1,127 @@
+/* General styles */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+h1, h2, h3 {
+margin: 0;
+}
+
+/* Header styles */
+header {
+background-color: orange;
+color: black;
+border-bottom: 1px solid #ccc;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #33;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: blue;
+}
+
+/* Main styles */
+main {
+padding: 20px;
+}
+
+section {
+margin: px 0;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 2px 0;
+}
+
+/* Form styles */
+form label {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+}
+
+form input, form button {
+display: block;
+margin-top: 5px;
+padding: 10px;
+width: 100%;
+border:;
+border-radius: 5px;
+font-size: 16px;
+}
+
+form input[type="date"] {
+width: auto;
+}
+
+form button {
+background-color: orange;
+color: purple;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #33;
+}
+
+/* Footer styles */
+footer {
+background-color: orange;
+color: black;
+padding: 10px;
+text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+main {
+max-width: 100%;
+margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 992px) {
+header {
+display: block;
+}
+
+nav ul {
+display: flex;
+}
+
+nav li {
+margin: 0 20px;
+}
+
+main {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+section {
+flex-basis: 50%;
+}
+}

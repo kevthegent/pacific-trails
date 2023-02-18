@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pacific Trails Resort</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pacific.css">
+  </head>
+  <body>
+    <header>
+      <h1>Pacific Trails Resort</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#yurts">Yurts</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+          <li><a href="#activities">Activities</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>Welcome to Pacific Trails Resort</h2>
+        <p>Escape to the beauty and serenity of the California North Coast at Pacific Trails Resort. Our luxury camping yurts and upscale lodge offer the perfect getaway for couples who love nature and hiking.</p>
+        <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" alt="Pacific Trails Resort Lodge">
+      </section>
+      <section id="yurts">
+        <h2>Yurt Accommodations</h2>
+        <p>Experience the ultimate luxury camping experience in our spacious yurts. Each yurt features a comfortable queen-sized bed, wood-burning stove, and private deck with stunning views of the surrounding forest.</p>
+        <img src="https://media.istockphoto.com/id/484608321/photo/camping-yurt.jpg?s=612x612&w=0&k=20&c=aBDHiHTDMUo5ks98BYs4Hd6lOL-z-njKw6yyTeChP5A=" alt="Pacific Trails Resort Yurt">
+      </section>
+      <section id="reservations">
+        <h2>Reservations</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="checkin">Check-in date:</label>
+          <input type="date" id="checkin" name="checkin" required>
+          <label for="checkout">Check-out date:</label>
+          <input type="date" id="checkout" name="checkout" required>
+          <label for="guests">Number of guests:</label>
+          <input type="number" id="guests" name="guests" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section id="activities">
+        <h2>Activities</h2>
+        <ul>
+          <li>Hiking</li>
+          <li>Wildlife watching</li>
+          <li>Kayaking</li>
+          <li>Birdwatching</li>
+          <li>Stargazing</li>
+        </ul>
+        <p>With miles of trails to explore, the California North Coast offers endless opportunities for outdoor recreation. At Pacific Trails Resort, you can hike through ancient redwood forests, paddle along the coast in a kayak, and watch for otters and seals playing in the surf. In the evening, sit by the campfire and gaze up at the stars.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Pacific Trails Resort 2023. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
